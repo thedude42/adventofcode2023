@@ -8,5 +8,6 @@ DAYDIR="day$DAY"
 
 mkdir $DAYDIR
 touch $DAYDIR/$DAY_INPUT
-touch $DAYDIR/testinput
+touch $DAYDIR/test1
+touch $DAYDIR/test2
 cp newday.py $DAYDIR/$DAY_PY
